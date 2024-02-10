@@ -41,15 +41,15 @@ const Header = () => {
               </a>
             </div>
             <p className="font-sans pb-3 text-left font-Nunito lg:text-lg   ">
-              Charizard, el imponente Pokémon volador y de fuego, es la
-              evolución final del adorable Charmander. Con sus majestuosas alas
-              y llamas ardientes, Charizard domina los cielos e inspira respeto.
-              Su fuerza y ​coraje son legendarios y su fuego destructivo es
-              capaz de incinerar a sus oponentes. A pesar de su temperamento
-              salvaje, se sabe que Charizard forma vínculos profundos y leales
-              con sus entrenadores. Su imponente presencia y sus habilidades de
-              vuelo lo convierten en un compañero valioso y protector en
-              cualquier equipo.
+              Charizard, the imposing flying and fire Pokémon, is the
+              final evolution of the adorable Charmander. With its majestic wings
+              and burning flames, Charizard dominates the skies and commands respect.
+              His strength and courage are legendary and his destructive fire is
+              capable of incinerating his opponents. Despite his temperament
+              wild, Charizard is known to form deep and loyal bonds
+              with their coaches. His imposing presence and his skills of
+              flight make it a valuable and protective companion in
+              any team.
             </p>
             <div className=" flex justify-center ">
               <button className="mx-auto flex   w-full justify-center rounded-xl bg-zinc-900  py-2 text-2xl duration-200 ease-in-out hover:w-11/12 hover:bg-zinc-800">
