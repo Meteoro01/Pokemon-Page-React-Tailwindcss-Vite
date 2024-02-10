@@ -64,7 +64,7 @@ function App() {
   const Search = async function (name) {
     setLoadingCard(true);
     try {
-      const pokemon = await SearchPoke(name);
+      const pokemon = await SearchPoke(name.toLowerCase());
       setPokemon(pokemon);
       setLoadingCard(false);
     } catch (error) {
