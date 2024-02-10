@@ -20,7 +20,7 @@ const Panel = ({ Search, SearchType, StPagination, ResetType }) => {
       <div className="flex w-full flex-col md:py-4  lg:w-3/6 lg:py-7">
         <a className="text-1xl flex items-center gap-3 pb-2 pl-3 font-Nunito text-white">
           <img src={file} alt="" className="w-8" />
-          Busqueda Por Tipo:
+          Search By Type:
         </a>
         <div className="flex rounded-lg border border-gray-300 py-3">
           <div className="mx-2 flex items-center">
@@ -32,7 +32,7 @@ const Panel = ({ Search, SearchType, StPagination, ResetType }) => {
       <div className="flex w-full flex-col  py-4  lg:w-3/6 lg:py-8">
         <a className="text-1xl flex items-center gap-3 pb-2 pl-3 font-Nunito text-white">
           <img src={search} alt="" className="w-8" />
-          Busqueda por Pokémon
+          Search by Pokémon:
         </a>
         <div className="mx-4 flex">
           <input
@@ -40,7 +40,7 @@ const Panel = ({ Search, SearchType, StPagination, ResetType }) => {
             onChange={(e) => setPoke(e.target.value)}
             type="search"
             onKeyDown={(e) => e.key === "Enter" && handleSearch()}
-            placeholder="!Yo te Escojo¡"
+            placeholder="!I choose you!"
             className="w-10/12 rounded-l-lg border border-gray-300 bg-gray-900 bg-transparent py-3 pl-4 text-white   placeholder:text-white focus:outline-none"
           />
           <button
