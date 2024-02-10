@@ -1,0 +1,35 @@
+/* body {
+  overflow-x: hidden; 
+  overflow-y: hidden; 
+} */
+body::-webkit-scrollbar {
+  width: 0; /* Ancho de la barra */
+  height: 0; /* Altura de la barra */
+}
+
+
+
+#header {
+  /* background-image: url(../src/assets/svg/fire.svg); */
+  background: url(./assets/svg/bg_pokemon.svg),
+    linear-gradient(180deg, #ff8a00, #ff3600);
+  background-size: 101%;
+  background-position: bottom, 50%;
+  background-repeat: no-repeat;
+  
+ }
+
+.custom-font {
+  font-family: "Nunito", sans-serif;
+  font-family: "Nunito-VariableFont_wght", sans-serif;
+  font-family: "Nunito-Italic", sans-serif;
+  font-family: "Nunito-Italic-VariableFont_wght", sans-serif;
+}
+
+#content-pk {
+  background: url(./assets/svg/bg-forest.svg),
+    linear-gradient(180deg, #050505, #06060e);
+  background-size: 101%;
+  background-position: bottom, 50%;
+  background-repeat: no-repeat;
+}
