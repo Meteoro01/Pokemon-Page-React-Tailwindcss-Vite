@@ -38,7 +38,7 @@ const CardDetailPokemond = ({ Pokemon, CloseCard }) => {
             <h2 className="text-center font-bold text-white">{kg(height)} M</h2>
             <h2 className="text-md flex gap-2 font-medium lg:text-xl ">
               <img src={altura} alt=""  />
-              Altura
+              Height
             </h2>
           </div>
           <div className="my-2 flex w-4/12  justify-around border-l-2 border-r-2">
@@ -56,7 +56,7 @@ const CardDetailPokemond = ({ Pokemon, CloseCard }) => {
             </h2>
             <h2 className="flex gap-2  font-medium lg:text-xl ">
               <img src={peso} alt=""   />
-              Peso
+              Weight
             </h2>
           </div>
         </div>
