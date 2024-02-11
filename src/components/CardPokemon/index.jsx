@@ -48,14 +48,14 @@ const CardPokemon = ({ props, id, Search }) => {
             <h2 className="px-3 text-center lg:text-xl">{kg(height)} M</h2>
             <h2 className="flex gap-2  lg:text-xl   ">
               <img src={altura} />
-              Altura
+              Height
             </h2>
           </div>
           <div className="flex flex-col justify-center ">
             <h2 className="text-center  lg:text-xl">{kg(weight)} KG</h2>
             <h2 className="flex gap-2    lg:text-xl ">
               <img src={peso} />
-              Peso
+              Weight
             </h2>
           </div>
         </div>
