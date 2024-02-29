@@ -1,7 +1,7 @@
 import React from "react";
-import LogoPokemon from "../assets/img/LogoPokemon.png";
+import LogoPokemon from "../assets/img/LogoPokemon.webp";
 import Rayo from "../assets/icons/rayo.svg";
-import Charizart from "../assets/img/charizart.png";
+import Charizart from "../assets/img/charizart.webp";
 // types
 import fire from "../assets/types/fire.svg";
 import flying from "../assets/types/flying.svg";
